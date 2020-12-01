@@ -1,0 +1,81 @@
+
+.navbar ul {
+    margin:0 auto;
+	font-size: 1.4em;
+}
+.navbar a{
+	color: black;
+}
+
+.navbar a:hover{
+    color: #7d7d7d;
+	text-decoration: underline 1px;
+	transition: color 0.5s;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+ }
+
+.active{
+	color: #7d7d7d !important;
+}
+
+.col-md{
+	text-align: center;
+}
+
+.fit-image{
+width: 100%;
+object-fit: cover;
+height: 300px; /* only if you want fixed height */
+}
+
+footer{
+	text-align: left;
+	margin-top:3%;
+}
+
+.copyright{
+	text-align: center;
+}
+
+.footer a:hover{
+	color: #7d7d7d;
+	text-decoration: underline 1px;
+	transition: color 0.5s;
+}
+
+.footer a{
+	color: black;
+}
+
+.title-row{
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.col-md{
+	text-align: left;
+}
+
+img{
+	margin-bottom: 2%;
+}
+/* about us page css */
+.pageTitle{
+	background-color: #cccac9;  
+
+  }
+  /* .pageTitle img{
+	  width: 90%;
+	  height:100%;
+	  padding: 100px 0;
+  } */
+.pageInfor{
+	padding:10% 0;
+  }
+  .pageImg{
+	padding:5% 0;
+  }
